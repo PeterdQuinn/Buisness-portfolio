@@ -362,8 +362,9 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, #09f821 0%, #010c01 100%);
-	color: rgb(7, 7, 7);
+	background: rgb(4,106,56);
+	background: radial-gradient(circle, rgba(4,106,56,1) 0%, rgba(39,37,31,1) 80%, rgba(18,87,64,1) 100%);
+	color: whitesmoke;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
@@ -501,9 +502,10 @@ p {
 }
 #footer .footer {
 	min-height: 200px;
-	flex-direction: column;
+	flex-direction: row;
 	padding-top: 50px;
 	padding-bottom: 10px;
+	color: hsl(120, 30%, 95%);
 }
 #footer h2 {
 	color: rgb(37, 197, 47);
@@ -515,23 +517,15 @@ p {
 }
 #footer .social-icon {
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 #footer .social-item {
 	height: 50px;
 	width: 50px;
 	margin: 0 5px;
-	color: cornsilk;
+	background-color: rgb(28, 179, 46);
+	
 }
-
-#footer .social-item1 {
-	height: 50px;
-	width: 50px;
-	margin: 0 50px;
-	background-color: #080808;
-}
-
-
 #footer .social-item img {
 	filter: grayscale(1);
 	transition: 0.3s ease filter;
@@ -540,7 +534,7 @@ p {
 	filter: grayscale(0);
 }
 #footer p {
-	color: #f1eded;
+	color: #121111;
 	font-size: 1.3rem;
 }
 /* End Footer */
