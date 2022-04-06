@@ -497,6 +497,7 @@ p {
 /* Footer */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	
 }
 #footer .footer {
 	min-height: 200px;
@@ -505,7 +506,7 @@ p {
 	padding-bottom: 10px;
 }
 #footer h2 {
-	color: white;
+	color: rgb(37, 197, 47);
 	font-weight: 500;
 	font-size: 1.8rem;
 	letter-spacing: 0.1rem;
@@ -520,7 +521,17 @@ p {
 	height: 50px;
 	width: 50px;
 	margin: 0 5px;
+	color: cornsilk;
 }
+
+#footer .social-item1 {
+	height: 50px;
+	width: 50px;
+	margin: 0 50px;
+	background-color: #080808;
+}
+
+
 #footer .social-item img {
 	filter: grayscale(1);
 	transition: 0.3s ease filter;
@@ -529,7 +540,7 @@ p {
 	filter: grayscale(0);
 }
 #footer p {
-	color: white;
+	color: #f1eded;
 	font-size: 1.3rem;
 }
 /* End Footer */
