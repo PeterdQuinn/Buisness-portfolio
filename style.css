@@ -293,7 +293,7 @@ p {
 	flex-direction: column;
 	padding: 30px;
 	border-radius: 10px;
-	background-image: url(./img/img-1.png);
+	background-image: url(./img/Whyme1.jpg);
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -307,7 +307,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #20af3f 0%, #cedbce 100%);
+	background-image: linear-gradient(60deg, hsl(120, 41%, 97%) 0%, hwb(135 2% 96%) 100%);
 	opacity: 0.9;
 	z-index: -1;
 }
@@ -318,12 +318,12 @@ p {
 }
 #services .service-item h2 {
 	font-size: 2rem;
-	color: #e8dcdc;
+	color: hsl(0, 50%, 98%);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
 #services .service-item p {
-	color: hsl(180, 9%, 2%);
+	color: hsl(120, 20%, 95%);
 	text-align: left;
 }
 /* End Services Section */
@@ -362,8 +362,8 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background-image: linear-gradient(60deg, hsl(212, 24%, 88%) 0%, #23cf5c 100%);
-	color: white;
+	background-image: linear-gradient(60deg, #09f821 0%, #010c01 100%);
+	color: rgb(7, 7, 7);
 }
 #projects .project-info h1 {
 	font-size: 4rem;
@@ -375,7 +375,7 @@ p {
 	margin-top: 10px;
 }
 #projects .project-info p {
-	color: #f0e2e2;
+	color: #f7f4f4;
 }
 #projects .project-img {
 	flex-basis: 50%;
@@ -390,7 +390,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	background-image: linear-gradient(60deg, hsl(0, 0%, 3%) 0%, #485563 100%);
 	opacity: 0.7;
 }
 #projects .project-img img {
