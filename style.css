@@ -325,7 +325,7 @@ p {
 #services .service-item p {
 	background-color: black;
 	text-align: left;
-	color: #14dc28;
+	color: #ecf0ec;
 }
 /* End Services Section */
 
@@ -365,7 +365,7 @@ p {
 	flex-direction: column;
 	background: rgb(4,106,56);
 	background: radial-gradient(circle, rgba(4,106,56,1) 0%, rgba(39,37,31,1) 80%, rgba(18,87,64,1) 100%);
-	color: #ffffff;
+	color: white;
 }
 #projects .project-info h1 {
 	font-size: 4rem;
@@ -375,10 +375,10 @@ p {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
-	background-color: hsl(133, 88%, 48%);
+	background-color: rgb(227, 231, 227);
 }
 #projects .project-info p {
-	color: #f7f4f4;
+	color: hsl(0, 36%, 10%);
 }
 #projects .project-img {
 	flex-basis: 50%;
