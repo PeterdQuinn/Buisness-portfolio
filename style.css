@@ -363,8 +363,8 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	background: rgb(4,106,56);
-	background: radial-gradient(circle, rgba(4,106,56,1) 0%, rgba(39,37,31,1) 80%, rgba(18,87,64,1) 100%);
+	background: rgb(90, 216, 155);
+	background: radial-gradient(circle, rgb(67, 249, 161) 0%, rgba(39,37,31,1) 80%, rgba(18,87,64,1) 100%);
 	color: white;
 }
 #projects .project-info h1 {
